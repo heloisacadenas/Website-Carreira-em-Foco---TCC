@@ -1,0 +1,313 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+#fd{
+    background-image: linear-gradient(to right, #47c3fd , #40ffca, #950ece);
+}
+
+#painel{
+    position: absolute;
+    right: 50%;
+    top: 0%;
+    width:50%;
+    height: 100%;
+    background-color: #fffcf7;
+    border-radius: 3%;
+}
+
+#img1 {
+    position: absolute;
+    margin-left: 3%;
+    top: -1%;
+    max-width: 14%;
+}
+
+#img2 {
+    position: absolute;
+    margin-left: 3%;
+    top: 87%;
+    max-width: 8%;
+}
+
+#cabec{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 58%;
+    font-size: 140%;
+    position: absolute;
+    top: 13%;
+    color: #797E8A;
+    cursor: default;
+}
+
+#cabec2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 16%;
+    top: 17%;
+    position: absolute;
+    cursor: default;
+    font-size: 150%;
+
+}
+
+#cabec5{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 16%;
+    top: 29.3%;
+    position: absolute;
+    cursor: default;
+    font-size: 140%;
+
+}
+
+#cabec6{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 16%;
+    top: 41%;
+    position: absolute;
+    cursor: default;
+    font-size: 140%;
+
+}
+
+#cabec7{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 16%;
+    top: 54%;
+    position: absolute;
+    cursor: default;
+    font-size: 140%;
+
+}
+
+#cabec8{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 16%;
+    top: 67%;
+    position: absolute;
+    cursor: default;
+    font-size: 140%;
+
+}
+
+
+#txtemail {
+    position: absolute;
+    margin-left: 13%;
+    top: 34%;
+    background-color: #f4f4f4;
+    height: 7%;
+    border-radius: 40px;
+    width: 73%;
+    border-color: #f4f4f4;
+    text-indent: 20px;
+}
+
+#txtnome {
+    position: absolute;
+    margin-left: 13%;
+    top: 22%;
+    background-color: #f4f4f4;
+    height: 7%;
+    border-radius: 40px;
+    width: 73%;
+    border-color: #f4f4f4;
+    text-indent: 20px;
+   
+}
+
+#txtsenha {
+    position: absolute;
+    margin-left: 13%;
+    top: 46%;
+    background-color: #f4f4f4;
+    height: 7%;
+    border-radius: 40px;
+    width: 73%;
+    border-color: #f4f4f4;
+    text-indent: 20px;
+}
+
+#txtnumero {
+    position: absolute;
+    margin-left: 13%;
+    top: 59%;
+    background-color: #f4f4f4;
+    height: 7%;
+    border-radius: 40px;
+    width: 73%;
+    border-color: #f4f4f4;
+    text-indent: 20px;
+}
+
+#txtcpf {
+    position: absolute;
+    margin-left: 13%;
+    top: 72%;
+    background-color: #f4f4f4;
+    height: 7%;
+    border-radius: 40px;
+    width: 52%;
+    border-color: #f4f4f4;
+    text-indent: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 1.50rem 1.50rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0rem;
+    transition: all 0.3s;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    top: 88%;
+    margin-left: 39%;
+    cursor: pointer;
+
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5100FF;
+    border-radius: 10%;
+    z-index: -2;
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #C3A8FF;
+    transition: all 0.3s;
+    border-radius: 10%;
+    z-index: -1;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button:hover:before {
+    width: 100%;
+}
+
+#painel2{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width:50%;
+    height: 100%;
+}
+
+#cabec4{
+    font-family: 'Montserrat', sans-serif;                                                                                                                                              
+    right: 16%;
+    top: 3%;
+    position: absolute;
+    font-size: 550%;
+    cursor: default;
+    color: white;
+    font-weight: normal;
+}
+
+#img3{
+    position: absolute;
+        right: 15%;
+        top: 23%;
+        width: 70%;
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 13%;
+    color: #9c9c9c;
+    left: -9%;
+    position: absolute;
+  }
+
+  #voltar{
+    position: absolute;
+    height: 5%;
+    top: 91%;
+    margin-left: 3%;
+  }
+
+  #cabec3{
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 9%;
+    top: 88.5%;
+    position: absolute;
+    font-size: 100%;
+    color: #000;
+    cursor: default;
+}
+
+#txtcadastro{
+    font-family: 'Bebas Neue', sans-serif;                                       
+    position: absolute;
+    left: 62%;
+    font-size: 500%;
+    top: 1%;
+
+}
+
+#cabec9{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    color: #9c9c9c;
+    font-size: 100%;
+    top: 83.5%;
+    left: 40%;
+}
+
+/* Esconde o input file */
+#arq {
+    display: none;
+}
+
+/* Estiliza o label com os estilos fornecidos */
+label[for="arq"] {
+    color: #404040;
+    height: 50px;
+    width: 200px;
+    background-color: #f4f4f4;
+    position: relative;
+    top: 870px;
+    left: 900px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #D3D3D3;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover no label */
+label[for="arq"]:hover {
+    background-color: #e0e0e0; /* Alteração da cor de fundo no hover */
+}
+
+/* Estilo para o ícone */
+label[for="arq"] i {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+#cabec4{
+position: absolute;
+font-size:350%;}

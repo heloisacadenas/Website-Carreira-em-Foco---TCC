@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.cdnfonts.com/css/bergante');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+#fd {
+margin: 0 auto;
+min-width: 300px;
+max-width: 460px;
+background-color:#FFFCF7;
+}
+
+
+    #cabec{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 10%;
+        font-size: 230%;
+        position: absolute;
+        top: 1%;
+        cursor: default;
+    }
+
+    #cabec2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 10%;
+        color: #797E8A;
+        position: absolute;
+        top: 15%;
+        font-size: 80%;
+        font-weight: normal;
+        cursor: default;
+    }
+
+    #cabec3{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 10%;
+        top: 30%;
+        position: absolute;
+        cursor: default;
+        font-size: 80%;
+    }
+
+    #cabec4{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 10%;
+        top: 49%;
+        position: absolute;
+        cursor: default;
+        font-size: 80%;
+
+    }
+
+    #cabec5{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 34%;
+        color: #797E8A;
+        position: absolute;
+        top: 72%;
+        font-size: 80%;
+        
+    }
+
+    #txtemail {
+        position: absolute;
+        margin-left: 8%;
+        top: 36%;
+        background-color: #f4f4f4;
+        height: 3%;
+        border-radius: 40px; 
+        height: 9%;
+        width: 73%;
+        border-color: #f4f4f4;
+        text-indent: 20px;
+        padding: 10px;
+    }
+    
+    #txtsenha {
+        position: absolute;
+        margin-left: 8%;
+        top: 55%;
+        background-color: #f4f4f4;
+        height: 3%;
+        border-radius: 40px; 
+        height: 9%;
+        width: 73%;
+        border-color: #f4f4f4;
+        text-indent: 20px;
+        padding: 10px;
+    }
+    
+    div i{
+        position: absolute;
+        font-size: 180%;
+        top: 57.5%;
+        left: 79%;
+        cursor: pointer;
+        color: #9c9c9c;
+    }
+
+
+
+     .button {
+        display: inline-block;
+        padding: 1rem 1.8rem;
+        border-radius: 10rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.05rem;
+        transition: all 0.3s;
+        overflow: hidden;
+        z-index: 1;
+        text-decoration:none;
+        font-weight: bold;
+        top: 78%;
+        right: 23%;
+        position: absolute;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .button:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #5100FF;
+        border-radius: 10%;
+        z-index: -2;
+    }
+    
+    .button:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #C3A8FF;
+        transition: all 0.3s;
+        border-radius: 10%;
+        z-index: -1;
+    }
+    
+    .button:hover {
+        color: #fff;
+    }
+    
+    .button:hover:before {
+        width: 100%;
+    }
+
+    #btnCancelar{
+        font-family: 'Montserrat', sans-serif;
+        display: inline-block;
+        padding: 1rem 1.8rem;
+        border-radius: 10rem;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0.05rem;
+        transition: all 0.3s;
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+        text-decoration:none;
+        font-weight: bold;
+        top: 78%;
+        right: 52%;
+        cursor: pointer;
+    } 
+    
+    #btnCancelar:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #5100FF;
+        border-radius: 10rem;
+        z-index: -2;
+    }
+    
+    #btnCancelar:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #C3A8FF;
+        transition: all 0.3s;
+        border-radius: 10rem;
+        z-index: -1;
+    }
+    
+    #btnCancelar:hover {
+        color: #fff;
+    }
+    
+    #btnCancelar:hover:before {
+        width: 100%;
+    }
+    
+
+    #img1 {
+        position: absolute;
+        margin-left: -93%;
+        top: 17%;
+        width: 0%;
+    }
+
+    #painel2{
+        position: absolute;
+        left: -39%;
+        top: 0%; 
+        width:50%;
+        height: 100%;
+    }
+
+    #txt2{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: -78%;
+        top: 1%;
+        position: absolute;
+        font-size: 100%;
+        font-weight: normal;
+        cursor: default;
+        color: transparent;
+    }
+
+
+    #img3 {
+        position: absolute;
+        margin-left: 78%;
+        top: -1%;
+        max-width: 14%;
+    }
+
+
+    input::placeholder {
+        font-weight: bold;
+        opacity: 0.5;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 13%;
+        color: #9c9c9c;
+        left: -9%;
+        position: absolute;
+      }
+
+      #voltar{
+        position: absolute;
+        height: 5%;
+        top: 91%;
+        margin-left: 3%;
+      }
+

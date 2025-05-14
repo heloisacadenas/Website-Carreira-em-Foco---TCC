@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Esqueceu senha</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="../CSS/smartphone_esqueceusenha.css" type="text/css" rel="stylesheet" media="screen and (max-width:800px)">
+    <!--<link rel="stylesheet" type="text/css" href="../CSS/esqueceusenha.css" media="screen and (min-width:640px)">-->
+    <link rel="stylesheet" href="../CSS/notebook_esqueceusenha.css" media="screen and (min-width:801px)">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body id="fd">
+
+    <div id="painel">
+        <a href="index.html">
+        <img id="img1" src="../IMAGENS/logo.png"; alt="imagem">
+    </a>
+
+    <h1 id="solicitar">SOLICITAR</h1>
+    <h1 id="solicitarsenha">SENHA</h1>
+        <h3 id="cabec">POR FAVOR, ENTRE COM O EMAIL <br>ㅤㅤㅤㅤASSOCIADO À SUA CONTA.</h3>
+            
+    <form id="contactForm" onsubmit="return handleSubmit();">
+        <div id="txt">
+        <h4 id="cabec2">E-MAIL:</h4>
+        <input type="text" placeholder="E-mail" id="to" required><br>
+
+        <button type="submit" id="enviar" onclick="sendMail();">SOLICITAR SENHA</button> 
+        <button type="reset" id="btnCancelar">LIMPAR</button>
+    </form>
+
+        <script>
+            function handleSubmit() {
+      // Previne o comportamento padrão do formulário
+      sendMail();
+      return false; // Evita o envio padrão do formulário
+    }
+            function sendMail(){
+                (function(){
+                    emailjs.init("hjHCcCHwPMl_jh__D");
+                })();
+    
+                var params = {
+                    to: document.querySelector("#to").value,
+                };
+    
+                var serviceID = "service_o6jsl7f";
+                var templateID = "template_zfe71di";
+    
+                emailjs.send(serviceID, templateID, params)
+      .then( res => {
+        Swal.fire({
+          title: "E-mail enviado com sucesso!",
+          html: 'Por favor, aguarde a resposta de nossa equipe.',
+          showClass: {
+            popup: `
+            animate__animated
+            animate__fadeInUp
+            animate__faster
+            `
+          },
+          hideClass: {
+            popup: `
+            animate__animated
+            animate__fadeOutDown
+            animate__faster
+            `
+          }
+          });
+      })
+      .catch();
+    }
+        </script>
+
+        <a href="login.html">
+            <img src="../IMAGENS/voltar.png" id="voltar">
+        </a>
+       
+
+    </div>
+
+    </div>
+    <div id="painel2">
+        <h2 id="cabec4">OPS, ESQUECEU A <strong>SENHA</strong>?<br>ㅤㅤSEM PROBLEMAS!</h2>
+           <img id="img3" src="../IMAGENS/desenho3.PNG"; alt="imagem">
+        </div>
+
+    
+</body>
+</html>

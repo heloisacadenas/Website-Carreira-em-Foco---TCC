@@ -1,0 +1,847 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.cdnfonts.com/css/bergante');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+#audioindex{
+    position: absolute;
+    width: 12%;
+    top: 85%;
+    right: 8%;
+}
+
+#audioqs{
+    position: absolute;
+    width: 30%;
+    top: 180%;
+    right: -120%;
+}
+
+
+#fd {
+background-color:#FFFCF7;
+margin: 0 auto;
+min-width: 641px;
+max-width: 960;
+}
+
+
+#imglogo {
+    position: relative;
+    left: 1%;
+    top: -1%;
+    max-width: 7%; 
+}
+
+
+#img2 {
+    position: absolute;
+    left: 35%;
+    top: 14%;
+    width: 60%;
+}
+
+#img4 {
+    position: absolute;
+    left: 53%;
+    top: 120%;
+    width: 35%;
+}
+
+#img5 {
+    position: absolute;
+    left: 13%;
+    top: 218%;
+    width: 33%;
+}
+
+#linhar {
+    position: absolute;
+    width: 25%;
+    max-width: 100%;
+    margin-left: 21.5%;
+    margin-top: -1%;
+    transform: translateY(-23%);
+}
+
+#decoracao{
+    position: absolute;
+    top: 72%;
+    width: 20%;
+    left: 5%;
+}
+
+#painel {
+    position: absolute;
+    left: 5%;
+    top: 22%;
+    width: 90%; 
+}
+
+#txt1 {
+    font-family: 'Bergante', sans-serif; 
+    font-weight: normal;
+    font-size: 5vw;
+            cursor: default;
+        font-weight: lighter;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #painel {
+        position: static; 
+        width: 90%; 
+        margin: 20px auto; 
+        top: auto; 
+    }
+
+    #txt {
+        font-weight: normal;
+        font-size: 5vw; 
+    }
+}
+
+#txt2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 140%;
+    margin-top: 2%;
+    position: absolute;
+    margin-right: 60%;
+    cursor: default;
+    width: 30%;
+    
+}
+
+
+  
+.button {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 0.75rem 3.5rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all 0.3s;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration:none;
+    font-weight: normal;
+    top: 25%; 
+    right: 7%;
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5100FF;
+    border-radius: 10rem;
+    z-index: -2;
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #C3A8FF;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.button:hover:before {
+    width: 100%;
+}
+
+/*botão 2*/
+
+.button2 {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 0.75rem 2.0rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all 0.3s;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration:none;
+    font-weight: normal;
+    top: 25%; 
+    right: 15%;
+}
+
+.button2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5100FF;
+    border-radius: 10rem;
+    z-index: -2;
+}
+
+.button2:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #C3A8FF;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+.button2:hover {
+    color: #fff;
+}
+
+.button2:hover:before {
+    width: 100%;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+
+
+}
+
+section:nth-child(odd){
+    background-color: #F4F6F6;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 1%;
+    right: 100%;
+    border-radius: 30px;
+    right: 2%;
+    height: 8%;
+    width: 98%;
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #F4F6F6;
+    font-family: 'Poppins', sans-serif;
+} 
+
+nav a{
+    font-family: 'Poppins', sans-serif;    
+    position: relative;
+    font-size: 140%;
+    color: #000;
+    text-decoration: none;
+    font-weight: 100%;
+    right: 75%;
+    transition: .3s;
+    
+}
+
+
+nav a:hover,
+nav a.activenav{
+color: #5100FF;
+}
+
+#qs{
+    position: absolute;
+    font-size: 155%;
+    top: 125%;
+    left: 5%;
+    text-align: justify;
+    margin-right: 60%;
+    cursor: context-menu;
+}
+
+#ad{
+    position: absolute;
+    top: 230%;
+    right: 22%;
+    padding: 5px 10px;
+}
+
+#txtad{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    top: 218%;
+    right: 9%;
+    font-size: 550%;
+}
+ 
+#txtadu{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    top: 225%;
+    right: 9%;
+    font-size: 550%;
+
+
+}
+
+#enviar{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 0.75rem 3.5rem;
+    border-radius: 10rem;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    transition: all 0.3s;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration:none;
+    font-weight: normal;
+    top: 105%;
+    right: 1%;
+} 
+
+#enviar:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5100FF;
+    border-radius: 10rem;
+    z-index: -2;
+}
+
+#enviar:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #C3A8FF;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+#enviar:hover {
+    color: #fff;
+}
+
+#enviar:hover:before {
+    width: 100%;
+}
+
+#btnCancelar {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 0.75rem 3.5rem;
+    border-radius: 10rem;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    transition: all 0.3s;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration:none;
+    font-weight: normal;
+    top: 105%;
+    right: -90%;
+} 
+
+#btnCancelar:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5100FF;
+    border-radius: 10rem;
+    z-index: -2;
+}
+
+#btnCancelar:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #C3A8FF;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+#btnCancelar:hover {
+    color: #fff;
+}
+
+#btnCancelar:hover:before {
+    width: 100%;
+}
+
+
+
+#sendername {
+    background-color: #f4f4f4;
+    border-radius: 40px; 
+    height: 9%;
+    width: 177%;
+    border-color: #f4f4f4;
+    text-indent: 20px;
+    padding: 10px;
+}
+
+#to {
+    background-color: #f4f4f4;
+    border-radius: 40px; 
+    height: 9%;
+    width: 177%;
+    border-color: #f4f4f4;
+    text-indent: 20px;
+    padding: 10px;
+}
+ 
+#subject {
+    background-color: #f4f4f4;
+    border-radius: 30px; 
+    height: 50%;
+    width: 177%;
+    border-color: #f4f4f4;
+    position: relative;
+    text-indent: 20px;
+    padding: 10px;
+} 
+
+#message {
+    background-color: #f4f4f4;
+    border-radius: 40px; 
+    height: 20%;
+    width: 177%;
+    border-color: #f4f4f4;
+    text-indent: 20px;
+    padding: 10px;
+} 
+
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.2;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 13%;
+    color: #9c9c9c;
+    left: -9%;
+    position: absolute;
+    font-size: 80%;
+    top: 25%;
+  }
+
+
+#df{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    top: 310%;
+    left: 6%;
+    font-size: 550%;
+}
+
+#txtqs{
+    font-family: 'Bebas Neue', sans-serif; 
+    position: absolute;
+    font-size: 550%;
+    top: 115%;
+    left: 5%;
+    cursor: context-menu;
+}
+
+
+.accordion {
+    background-image: linear-gradient(to right, #5e67e4a9 , #fa90959a);
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 360%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 30px;
+    height: 120px;
+
+  }
+  
+  .active, .accordion:hover {
+    background-color: #9c9c9c;
+  }
+  
+  .panel {
+    /* padding: 0 18px; */
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin: auto;
+    width: 360%;
+    position: inherit;
+    border-radius: 30px;
+    text-indent: 20px;
+        padding: 10px;
+    
+  }
+
+  .accordion:after {
+    content: '\21B6  '; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #000;
+    float: right;
+    margin-left: 5px;
+   
+  }
+  
+  .active:after {
+    content: "\21B7    "; /* Unicode character for "minus" sign (-) */
+  }
+
+  #conjunto{
+    position: absolute;
+    top: 323%;
+    left: 6%;
+  }
+
+  #img6 {
+    width: 25%; 
+    left: -2%; 
+    top: 167.5%; 
+    position: absolute;
+}
+
+#detalhe1{
+    position: absolute;
+    left: 18%;
+    margin-top: 8%;
+    width: 13%;
+  }
+
+  #detalhe2{
+    position: absolute;
+    left: -20%;
+    margin-top: 48%;
+    width: 10%;
+  }
+
+
+  #detalhe3{
+    position: absolute;
+    top: 116%;
+    left: 21%;
+    width: 4%;
+
+  }
+
+  #detalhe4{
+    width: 8%;
+    position: absolute;
+    top: 250%;
+    left: 5%;
+
+  }
+
+  #detalhe5{
+    position: absolute;
+    top: 173%;
+    left: 30%;
+    width: 5%;
+
+  }
+
+  #detalhe6{
+    position: absolute;
+    top: 255%;
+    left: 42%;
+    width: 6%;
+
+  }
+
+
+
+    /* FALE CONOSCO */
+
+
+
+  #nome{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-size: 200%;
+    margin-left: -20%;
+    margin-top: 35%;
+}
+  #email{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 200%;
+    position: relative;
+    margin-left: -20%;
+    margin-top: 5%;
+  }
+  #assunto{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 200%;
+    position: relative;
+    margin-left: -20%;
+    margin-top: 5%;
+  }
+  #mensagem{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 200%;
+    position: relative;
+    margin-left: -20%;
+      margin-top: 5%;
+  }
+
+
+
+
+  #sendername {
+    background-color: #f4f4f4;
+    border-radius: 40px; 
+    height: 55px;
+    width: 290%;
+    border-color: #f4f4f4;
+    text-indent: 20px;
+    padding: 10px;
+    left: -26%;
+    position: relative;
+}
+
+#to {
+    background-color: #f4f4f4;
+    border-radius: 40px; 
+    height: 55px;
+    width: 290%;
+    border-color: #f4f4f4;
+    text-indent: 20px;
+    padding: 10px;
+    left: -26%;
+    position: relative;
+}
+ 
+#subject {
+    background-color: #f4f4f4;
+    border-radius: 40px; 
+    height: 80px;
+    width: 290%;
+    border-color: #f4f4f4;
+    position: relative;
+    left: -26%;
+    position: relative;
+} 
+
+#message {
+    background-color: #f4f4f4;
+    border-radius: 60px; 
+    height: 100px;
+    width: 290%;
+    border-color: #f4f4f4;
+    left: -26%;
+    position: relative;
+} 
+
+textarea{
+        text-indent: 20px;
+        padding: 10px;
+        border-radius: 40px;
+}
+
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.2;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 13%;
+    color: #9c9c9c;
+    left: -10%;
+    position: absolute;
+    font-size: 80%;
+    top: 25%;
+  }
+
+  
+  textarea::placeholder {
+    font-weight: bold;
+    opacity: 0.2;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10%;
+    font-size: 80% ;
+    color: #9c9c9c;
+    left: -10%;
+    position: absolute;
+  }
+
+  
+  #imgcel{
+    position: absolute;
+    width: 30%;
+  }
+
+  #imgcirc{
+    position: absolute;
+    left: 45%;
+    top: 400%;
+    width: 55%;
+}
+
+#imgcel{
+    position: absolute;
+    width: 33%;
+    left: 7%;
+    top:408%;
+}
+
+#conheca{
+    font-family: 'Bebas Neue', sans-serif; 
+    position: absolute;
+    top: 410%;
+    left: 75%;
+    cursor: default;
+    font-size: 550%;
+    font-weight: bold;
+
+}
+
+#app{
+    font-family: 'Bebas Neue', sans-serif; 
+    position: absolute;
+    top: 417%;
+    left: 81%;
+    cursor: default;
+    font-size: 550%;
+    font-weight: bold;
+
+}
+
+#txtapp{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 190%;
+    top: 435%;
+    position: absolute;
+    cursor: default;
+    text-align: justify;
+    cursor: default;
+    margin-right: 6%;
+    left: 65%;
+
+}
+
+#sombra{
+    position: absolute;
+    width: 70%;
+    right: 36%;
+    top:478%;
+}
+
+#txtcopyright{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 483%;
+    left: 77%;
+    font-size: 120%;
+
+}
+
+ /*botao 3*/
+
+ .button3 {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1.5rem 4.0rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0rem;
+    transition: all 0.3s;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration:none;
+    font-weight: normal;
+    top: 465%; 
+    right: 14%;
+
+}
+
+.button3:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5100FF;
+    border-radius: 10rem;
+    z-index: -2;
+}
+
+.button3:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #C3A8FF;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+.button3:hover {
+    color: #fff;
+}
+
+.button3:hover:before {
+    width: 100%;
+}

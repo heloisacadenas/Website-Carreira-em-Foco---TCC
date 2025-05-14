@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="../CSS/login.css" media="screen and (min-width:641px)">-->
+    <link rel="stylesheet" href="../CSS/notebook_login.css"  type="text/css" media="screen and (min-width:801px)">
+    <link href="../CSS/smartphone_login.css" rel="stylesheet" type="text/css" media="screen and (max-width:800px)">
+    <!--<script src="JS/login.js"></script>-->
+</head>
+<body id="fd">
+     
+
+    <form role="form" action="Dologin.php" method="POST">
+    <div id="painel">
+
+        <a href="index.html">
+        <img id="img3" src="../IMAGENS/logo.png"; alt="imagem">
+    </a>
+
+        <h1 style="font-family: 'Bebas Neue', sans-serif; " id="cabec">LOGIN</h1>
+        <h4 id="cabec2">BOM TE VER DE NOVO! POR FAVOR,<br>FAÇA LOGIN NA SUA CONTA</h4> 
+
+        <div id="txt">
+
+            <h4 id="cabec3">E-MAIL:</h4>
+            <input type="text" placeholder="E-mail" name="email" id="txtemail" required><br>
+
+            <h4 id="cabec4">SENHA:</h4>
+            <input type="password" placeholder="Senha" name="senha" id="txtsenha" required>
+          <i class="bi bi-eye-slash" style=" position: absolute; left: 80%; top: 59.5%; cursor: pointer; color: #71797E;" id='olhofechado'></i>
+       
+
+            <a href="esqueceusenha.html" id="cabec5"><font face="Arial, Helvetica, sans-serif">ESQUECEU A SENHA?</a></font>
+
+        </div>
+
+            <div class="container" href="inicial.html">
+                <button class="button" type="submit">ENTRAR</button>
+            </div>
+              
+             
+
+            <div id="painel2">
+                <h2 style="color: white;" id="txt2">ㅤAPRENDA SOBRE AS<br>MELHORES <strong>PROFISSÕES!</strong></h2>
+                <img id="img1" src="../IMAGENS/desenho2.png"; alt="imagem">
+            </div>
+            </form>
+               <a href="../HTML/index.html">
+            <img src="../IMAGENS/voltar.png" id="voltar">
+        </a>
+              
+               <script>
+  let olhofechado = document.getElementById("olhofechado");
+  let txtsenha = document.getElementById("txtsenha");
+
+  olhofechado.onclick = function() {
+    if (txtsenha.type == "password") {
+      txtsenha.type = "text";
+      olhofechado.classList.remove("bi-eye-slash");
+      olhofechado.classList.add("bi-eye");
+    } else {
+      txtsenha.type = "password";
+      olhofechado.classList.remove("bi-eye");
+      olhofechado.classList.add("bi-eye-slash");
+    }
+  }
+</script>
+</body>
+</html>

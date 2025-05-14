@@ -1,0 +1,171 @@
+@import url('https://fonts.cdnfonts.com/css/bergante');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+#fd{
+
+background-color: #FFFCF7;
+}
+
+#meusdados{
+font-family: 'Bebas Neue', sans-serif;
+position: absolute;
+  font-weight: normal;
+  top: 4%;
+   left: 42%;
+  color: white;
+
+}
+
+
+
+
+.container{
+      background-color: #FFFCF7;
+width: 5px;
+  height: 70%;
+    border-radius: 5px;
+    position: absolute;
+    top: 15%;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.253);
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.253);
+    border: none;
+  left: 5%;
+ 
+    
+
+}
+
+
+.form-horizontal{
+  width: 60%;
+  position:absolute;
+  left: 25%;
+  top:10%;
+
+}
+
+
+
+/* Esconde o input file */
+#arq {
+    display: none;
+}
+
+/* Estiliza o label com os estilos fornecidos */
+label[for="arq"] {
+    color: #404040;
+    height: 40px;
+    width: 140px;
+    background-color: #f4f4f4;
+    position: relative;
+    top: 320px;
+    left: 423px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #D3D3D3;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover no label */
+label[for="arq"]:hover {
+    background-color: #e0e0e0; /* Alteração da cor de fundo no hover */
+}
+
+/* Estilo para o ícone */
+label[for="arq"] i {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+
+#buttonat{
+  
+   height: 40px;
+    width: 160px;
+position: absolute;
+  background-color: #f4f4f4;
+ color: #404040;
+   font-size: 13px;
+      font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #D3D3D3;
+    transition: background-color 0.3s ease; /* Transição suave */
+  border: none;
+  top: 110%;
+}
+
+#buttonat: hover{
+
+background-color: #e0e0e0; /* Alteração da cor de fundo no hover */
+}
+
+#buttonlim{
+   height: 40px;
+    width: 105px;
+  top: 110%;
+position: absolute;
+  background-color: #f4f4f4;
+ color: #404040;
+   font-size: 13px;
+      font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #D3D3D3;
+    transition: background-color 0.3s ease; /* Transição suave */
+  border: none;
+  left:25%;
+}
+
+#buttonlim: hover{
+
+background-color: #e0e0e0; /* Alteração da cor de fundo no hover */
+}
+
+#txtnome{
+  font-family: 'Poppins', sans-serif;
+}
+
+#txtemail{
+  font-family: 'Poppins', sans-serif;
+}
+
+#txtcpf{
+  font-family: 'Poppins', sans-serif;
+}
+
+#txttel{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.jumbotron{
+    background: linear-gradient(to right, #4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75);
+    width: 102.3%;
+    position: relative;
+    right: 1.2%;
+    margin-top: 0%;
+    height: 18%;
+    border-radius: 5px 
+}
+
+.mb-1{
+position: absolute;
+top: 88%;
+  font-size: 12px;
+  left: 43%;
+}
+
+ #voltar{
+    position: absolute;
+  width: 3%;
+    top: 88%;
+    margin-left: 0.5%;
+  }

@@ -1,0 +1,794 @@
+@import url('https://fonts.cdnfonts.com/css/bergante');
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+
+
+#audioindex{
+    position: absolute;
+    width: 12%;
+    top: 85%;
+    right: 8%;
+}
+
+#audioqs{
+    position: absolute;
+    width: 15%;
+    top: 186%;
+    right: 15%;
+}
+.fd {
+    margin: 0 auto;
+    min-width: 641px;
+    max-width: 960;
+    } */
+    
+    
+    
+    #fd {
+        background-color:#FFFCF7;
+        
+        
+    }
+    
+    
+    #imglogo {
+        position: relative;
+        left: 2%;
+        top: -1%;
+        max-width: 8%; 
+    }
+    
+    
+    #img2 {
+        position: absolute;
+        left: 35%;
+        top: 13%;
+        width: 60%;
+    }
+    
+    #img4 {
+        position: absolute;
+        left: 55%;
+        top: 118%;
+        width: 35%;
+    }
+    
+    #img5 {
+        position: absolute;
+        left: 9%;
+        top: 215%;
+        width: 35%;
+    }
+    
+    #img6 {
+        width: 15%; 
+        left: -2%; 
+        top: 177%; 
+        position: absolute;
+    }
+    
+    #linhar {
+        position: absolute;
+        width: 23%;
+        max-width: 100%;
+        margin-left: 21.5%;
+        margin-top: -1.5%;
+        transform: translateY(-23%);
+    }
+    
+    #decoracao{
+        position: absolute;
+        top: 79.5%;
+        width: 13%;
+        left: 5%;
+    }
+    
+    #painel {
+        position: absolute;
+        left: 5%;
+        top: 22%;
+        width: 90%; 
+    }
+    
+    #txt1 {
+        font-family: 'Bergante', sans-serif;                                       
+        font-size: 400%;
+        cursor: default;
+        font-weight: lighter;
+    }
+    
+    
+    #txt2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        font-size: 100%;
+        margin-top: 1%;
+        position: absolute;
+        margin-right: 65%;
+        cursor: default;   
+    }
+
+
+    .button {
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        padding: 0.3rem 1.5rem;
+        border-radius: 10rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0rem;
+        transition: all 0.3s;
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+        text-decoration:none;
+        font-weight: normal;
+        top: 15%; 
+        right: 2%;
+    }
+    
+    .button:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #5100FF;
+        border-radius: 10rem;
+        z-index: -2;
+    }
+    
+    .button:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #C3A8FF;
+        transition: all 0.3s;
+        border-radius: 10rem;
+        z-index: -1;
+    }
+    
+    .button:hover {
+        color: #fff;
+    }
+    
+    .button:hover:before {
+        width: 100%;
+    }
+    
+    /*botao 2*/
+
+    .button2 {
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        padding: 0.3rem 0.9rem;
+        border-radius: 10rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0rem;
+        transition: all 0.3s;
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+        text-decoration:none;
+        font-weight: normal;
+        top: 15%; 
+        right: 10%;
+    }
+    
+    .button2:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #5100FF;
+        border-radius: 10rem;
+        z-index: -2;
+    }
+    
+    .button2:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #C3A8FF;
+        transition: all 0.3s;
+        border-radius: 10rem;
+        z-index: -1;
+    }
+    
+    .button2:hover {
+        color: #fff;
+    }
+    
+    .button2:hover:before {
+        width: 100%;
+    }
+    
+    section{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 100%;
+    
+    
+    }
+    
+    section:nth-child(odd){
+        background-color: #F4F6F6;
+    
+    } 
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior:smooth;
+    }
+
+    
+    
+    header{
+        position: fixed;
+        top: 0%;
+        left: 1%;
+        right: 100%;
+        border-radius: 30px;
+        right: 2%;
+        height: 8%;
+        width: 98%;
+        padding: 20px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        background-color: #F4F6F6;
+        font-family: 'Poppins', sans-serif;
+    } 
+    
+    nav a{
+        font-family: 'Poppins', sans-serif;                                
+        position: relative;
+        font-size: 100%;
+        color: #000;
+        text-decoration: none;
+        font-weight: normal;
+        right: 25%;
+        transition: .3s;
+        
+    }
+    
+    
+    nav a:hover,
+    nav a.activenav{
+    color: #5100FF;
+    }
+    
+    #qs{
+        font-family: 'Poppins', sans-serif; 
+        position: absolute;
+        top: 120%;
+        left: 5%;
+        text-align: justify;
+        margin-right: 55%;
+        font-weight: normal;
+        font-size: 100%;
+        cursor: default;
+    }
+    
+    #txtqs{
+        font-family: 'Bebas Neue', sans-serif; 
+        position: absolute;
+        top: 112%;
+        left: 5%;
+        cursor: default;
+        font-size: 300%;
+        font-weight: normal;
+    }
+    
+    #ad{
+        position: absolute;
+        top: 226%;
+        right: 17%;
+        padding: 4px 8px;
+        cursor: default;
+    }
+    
+    #txtad{
+        font-family: 'Bebas Neue', sans-serif;
+        position: absolute;
+        top: 212%;
+        right: 6%;
+        cursor: default;
+        font-size: 300%;
+        font-weight: bolder;
+    }
+
+    #txtadu{
+        font-family: 'Bebas Neue', sans-serif;
+        position: absolute;
+        top: 220%;
+        right: 6.3%;
+        cursor: default;
+        font-size: 300%;
+        font-weight: bolder;
+    }
+     
+    #enviar{
+  font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        padding: 0.3rem 1.8rem;
+        border-radius: 10rem;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        transition: all 0.3s;
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+        text-decoration:none;
+        font-weight: normal;
+        top: 105%;
+        right: -35%;
+    } 
+    
+    #enviar:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #5100FF;
+        border-radius: 10rem;
+        z-index: -2;
+    }
+    
+    #enviar:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #C3A8FF;
+        transition: all 0.3s;
+        border-radius: 10rem;
+        z-index: -1;
+    }
+    
+    #enviar:hover {
+        color: #fff;
+    }
+    
+    #enviar:hover:before {
+        width: 100%;
+    }
+    
+    #btnCancelar {
+  font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        padding: 0.3rem 1.8rem;
+        border-radius: 10rem;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        transition: all 0.3s;
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+        text-decoration:none;
+        font-weight: normal;
+        top: 105%;
+        right: 30%;
+    } 
+    
+    #btnCancelar:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #5100FF;
+        border-radius: 10rem;
+        z-index: -2;
+    }
+    
+    #btnCancelar:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #C3A8FF;
+        transition: all 0.3s;
+        border-radius: 10rem;
+        z-index: -1;
+    }
+    
+    #btnCancelar:hover {
+        color: #fff;
+    }
+    
+    #btnCancelar:hover:before {
+        width: 100%;
+    }
+    
+    
+    
+    #sendername {
+        background-color: #f4f4f4;
+        border-radius: 40px; 
+        height: 35px;
+        width: 200%;
+        border-color: #f4f4f4;
+        text-indent: 20px;
+        padding: 10px;
+        left: -26%;
+        position: relative;
+    }
+    
+    #to {
+        background-color: #f4f4f4;
+        border-radius: 40px; 
+        height: 35px;
+        width: 200%;
+        border-color: #f4f4f4;
+        text-indent: 20px;
+        padding: 10px;
+        left: -26%;
+        position: relative;
+    }
+     
+    #subject {
+        background-color: #f4f4f4;
+        border-radius: 30px; 
+        height: 60px;
+        width: 200%;
+        border-color: #f4f4f4;
+        position: relative;
+        left: -26%;
+        position: relative;
+    } 
+    
+    #message {
+        background-color: #f4f4f4;
+        border-radius: 40px; 
+        height: 60px;
+        width: 200%;
+        border-color: #f4f4f4;
+        left: -26%;
+        position: relative;
+    } 
+    
+    textarea{
+            text-indent: 20px;
+            padding: 10px;
+            border-radius: 40px;
+    }
+    
+    
+    input::placeholder {
+        font-weight: bold;
+        opacity: 0.2;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 13%;
+        color: #9c9c9c;
+        left: -10%;
+        position: absolute;
+        font-size: 80%;
+        top: 25%;
+      }
+    
+      
+      textarea::placeholder {
+        font-weight: bold;
+        opacity: 0.2;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 10%;
+        font-size: 80% ;
+        color: #9c9c9c;
+        left: -10%;
+        position: absolute;
+      }
+    
+    #df{
+        font-family: 'Bebas Neue', sans-serif;
+        position: absolute;
+        top: 310%;
+        left: 3.6%;
+        font-size: 300%;
+        cursor: default;
+        font-weight: bolder;
+    }
+    
+    .accordion {
+        
+        background-image: linear-gradient(to right, #5e67e4a9 , #fa90959a);
+        color: #fff;
+        cursor: pointer;
+        padding: 18px;
+        width: 192%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        border-radius: 30px;
+        height: 55px;
+      
+    
+      }
+
+      
+      .active, .accordion:hover {
+        background-color: #9c9c9c;
+      }
+      
+      .panel {
+        /* padding: 0 18px; */
+        display: none;
+        background-color: white;
+        overflow: hidden;
+        margin: auto;
+        width: 192%;
+        position: inherit;
+        border-radius: 30px;
+        text-indent: 20px;
+            padding: 10px;
+            height: 72px;
+            font-size: 80%;
+        
+      }
+    
+      .accordion:after {
+        content: '\21B6  '; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #000;
+        float: right;
+        margin-left: 5px;
+       
+      }
+      
+      .active:after {
+        content: "\21B7"; /* Unicode character for "minus" sign (-) */
+      }
+    
+      #conjunto{
+       
+        position: absolute;
+        top: 320%;
+        left: 2.5%;
+      }
+
+      #detalhe1{
+        position: absolute;
+        left: 18%;
+        margin-top: 8%;
+        width: 13%;
+      }
+
+      #detalhe2{
+        position: absolute;
+        left: -20%;
+        margin-top: 50%;
+        width: 10%;
+      }
+    
+      #detalhe5{
+        position: absolute;
+        top: 178%;
+        left: 25%;
+ 
+      }
+
+      #detalhe3{
+        position: absolute;
+        top: 115%;
+        left: 45%;
+ 
+      }
+    
+      #detalhe4{
+        position: absolute;
+        top: 250%;
+        left: 3%;
+ 
+      }
+
+      #detalhe6{
+        position: absolute;
+        top: 270%;
+        left: 38%;
+        width: 6%;
+ 
+      }
+    
+      #nome{
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+        font-size: 90%;
+        margin-left: -20%;
+        margin-top: 5%;
+    }
+      #email{
+        font-family: 'Poppins', sans-serif; 
+        font-size: 90%;
+        position: relative;
+        margin-left: -20%;
+        margin-top: 5%;
+      }
+      #assunto{
+        font-family: 'Poppins', sans-serif; 
+        font-size: 90%;
+        position: relative;
+        margin-left: -20%;
+        margin-top: 5%;
+      }
+      #mensagem{
+        font-family: 'Poppins', sans-serif; 
+        font-size: 90%;
+        position: relative;
+        margin-left: -20%;
+          margin-top: 5%;
+      }
+
+      #imgcel{
+        position: absolute;
+        width: 30%;
+      }
+
+      #imgcirc{
+        position: absolute;
+        left: 45%;
+        top: 400%;
+        width: 55%;
+    }
+    
+    #imgcel{
+        position: absolute;
+        width: 33%;
+        left: 7%;
+        top:408%;
+    }
+
+    #conheca{
+        font-family: 'Bebas Neue', sans-serif; 
+        position: absolute;
+        top: 410%;
+        left: 75%;
+        cursor: default;
+        font-size: 300%;
+        font-weight: bold;
+
+    }
+
+    #app{
+        font-family: 'Bebas Neue', sans-serif; 
+        position: absolute;
+        top: 417%;
+        left: 82%;
+        cursor: default;
+        font-size: 300%;
+        font-weight: bold;
+
+    }
+
+    #txtapp{
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        font-size: 120%;
+        top: 435%;
+        position: absolute;
+        cursor: default;
+        text-align: justify;
+        cursor: default;
+        margin-right: 5%;
+        left: 65%;
+
+    }
+
+    #sombra{
+        position: absolute;
+        width: 55%;
+        left: 0%;
+        top:484%;
+    }
+
+    #txtcopyright{
+        font-family: 'Poppins', sans-serif;
+        position: absolute;
+        top: 490%;
+        left: 71%;
+        font-size: 80%;
+
+    }
+
+     /*botao 3*/
+
+     .button3 {
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        display: inline-block;
+        padding: 0.7rem 1.5rem;
+        border-radius: 10rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        letter-spacing: 0rem;
+        transition: all 0.3s;
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+        text-decoration:none;
+        font-weight: normal;
+        top: 475%; 
+        right: 14%;
+    }
+    
+    .button3:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #5100FF;
+        border-radius: 10rem;
+        z-index: -2;
+    }
+    
+    .button3:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #C3A8FF;
+        transition: all 0.3s;
+        border-radius: 10rem;
+        z-index: -1;
+    }
+    
+    .button3:hover {
+        color: #fff;
+    }
+    
+    .button3:hover:before {
+        width: 100%;
+    }
+
+
+.tacbox {
+  display:block;
+  padding: 1em;
+  margin: 2em;
+  border: 3px solid #ddd;
+  background-color: #eee;
+  max-width: 800px;
+}
+
+input {
+  height: 2em;
+  width: 2em;
+  vertical-align: middle;
+}

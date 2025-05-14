@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Carreira em Foco</title>
+  <link href="../CSS/smartphone_index.css" type="text/css" rel="stylesheet" media="screen and (max-width:800px)">
+  <link rel="stylesheet" href="../CSS/notebook_index.css" media="screen and (min-width:801px)">
+  <!--<link rel="stylesheet" type="text/css" href="../CSS/index.css" media="screen and (max-width:641px)">-->
+  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  
+  <!-- LINKS PARA O MODAL -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- LINKS PARA O MODAL -->
+</head>
+<body id="fd">
+  
+  
+  <header style=" background-color: #f4f4f4;">
+    <img id="imglogo" src="../IMAGENS/logo.png";  alt="imagem" class="logo">
+
+      <a href="../HTML/login.html" class="button">Login</a>
+      <a href="../HTML/cadastro.php" class="button2">Cadastro</a>
+
+  
+  <nav>
+    <a href="#home" class="activenav">Homeㅤ</a>
+    <a href="#quemsomos">Quem somosㅤ</a>
+    <a href="#faleconosco">Fale conoscoㅤ</a>
+    <a href="#duvidasfrequentes">Dúvidas frequentesㅤ</a>
+    <a href="#nossoapp">Nosso aplicativoㅤ</a>
+  </nav>
+  </header>
+
+  <section id="home">
+    <div id="painel">
+
+      <h1 id="txt1">Nós focamos<br>no seu futuro!</h1>
+      
+
+      <img id="linhar" src="../IMAGENS/linha-roxa.png"; alt="imagem">
+      
+
+      <div id="painel2" style="text-align: justify;">
+        <p id="txt2">Venha descobrir qual carreira se encaixa melhor 
+          com o seu perfil utilizando as nossas ferramentas. 
+          Nosso time organizou uma série de informações sobre os cursos mais
+           procurados do Brasil para te ajudar na sua jornada de escolha profissional!</p>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div id="img2">
+      <img id="img2" src="../IMAGENS/desenho1.PNG"; alt="imagem">
+      <img id="detalhe1" src="../IMAGENS/detalhe1.png";  alt="imagem">
+      <img id="detalhe2" src="../IMAGENS/detalhe2.png";  alt="imagem">
+    </div>
+    
+    <audio controls="controls" id="audioindex">
+    <source src="../AUDIO/audioindex.mp3" type="audio/mp3">
+</audio>
+
+
+    <div>
+      <img id="decoracao" src="../IMAGENS/ondavazada.PNG"; alt="imagem" class="imagem">
+    </div>
+  </section>
+
+
+  <section id="quemsomos">
+    
+    
+    <h2 id="txtqs"><strong>QUEM SOMOS?</strong></h2>
+    <div id="qs">
+
+     
+    
+    <br>
+    <p>Nossa equipe sabe que escolher uma profissão, 
+      principalmente nos dias de hoje, não é uma tarefa fácil. Por isso, criamos o 
+      Carreira em Foco! um guia de carreira
+      totalmente gratuito para toda a população brasileira.</p>
+      
+      <p>Aqui, separamos conteúdos de qualidade de forma 
+      educativa e interativa para que nossos usuários aprendam sobre os cursos mais procurados e 
+      avaliados da atualidade.</p>
+      
+      <p>Nosso objetivo é derrubar todas as barreiras e 
+      desigualdades informacionais sobre o atual mercado de trabalho, para que todos 
+      possam obter conhecimento sobre suas futuras carreiras. 
+      Além de ficar por cima do que está em alta e os salários mais bem pagos!</p>
+      
+    </div>
+      
+    <img id="img4" src="../IMAGENS/desenho4.PNG"; alt="imagem">
+    <img id="img6" src="../IMAGENS/bolharoxa2.png"; alt="imagem">
+    <img id="detalhe5" src="../IMAGENS/detalhe5.png";  alt="imagem">
+    <img id="detalhe3" src="../IMAGENS/detalhe3.png";  alt="imagem">
+       <audio controls="controls" id="audioqs">
+    <source src="../AUDIO/audioqs.mp3" type="audio/mp3">
+</audio>
+
+  </section>
+
+
+  <section id="faleconosco">
+    <img id="img5" src="../IMAGENS/desenho5.PNG"; alt="imagem">
+    <img id="detalhe4" src="../IMAGENS/detalhe4.png";  alt="imagem">
+    <img id="detalhe6" src="../IMAGENS/detalhe6.png";  alt="imagem">
+    <h2 id="txtad">ALGUMA DÚVIDA?</h2>
+    <h2 id="txtadu">FEEDBACK?</h2>
+    
+   
+
+
+    <div id="ad">
+
+      
+      <form id="contactForm" onsubmit="return handleSubmit();">
+
+        <h5 id="nome">Nome:</h5>
+        <input type="text" placeholder="Nome" id="sendername" required>
+        
+        <h5 id="email">Email:</h5>
+        <input type="text" placeholder="E-mail" id="to" required>
+    
+        <h5 id="assunto">Assunto:</h5>
+        <input rows="2" placeholder="Assunto" id="subject">
+    
+        <h5 id="mensagem">Mensagem:</h5>
+        <input rows="4" placeholder="Mensagem" id="message">
+    
+        
+    
+    
+      <button type="submit" id="enviar" onclick="sendMail();">ENVIAR</button> 
+      <button type="reset" id="btnCancelar">LIMPAR</button>
+    
+      </form>  
+
+    </div>
+    
+      
+
+      
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+      
+    <script>
+      function handleSubmit() {
+        // Previne o comportamento padrão do formulário
+        sendMail();
+        return false; // Evita o envio padrão do formulário
+      }
+      
+      function sendMail(){
+        (function(){
+          emailjs.init("hjHCcCHwPMl_jh__D");
+        })();
+      
+        var params = {
+          sendername: document.querySelector("#sendername").value,
+          to: document.querySelector("#to").value,
+          subject: document.querySelector("#subject").value,
+          message: document.querySelector("#message").value,
+        };
+      
+        var serviceID = "service_o6jsl7f";
+        var templateID = "template_luuenuj";
+      
+        emailjs.send(serviceID, templateID, params)
+        .then( res => {
+          Swal.fire({
+            title: "E-mail enviado com sucesso!",
+            html: 'Por favor, aguarde a resposta de nossa equipe.',
+            showClass: {
+              popup: `
+              animate__animated
+              animate__fadeInUp
+              animate__faster
+              `
+            },
+            hideClass: {
+              popup: `
+              animate__animated
+              animate__fadeOutDown
+              animate__faster
+              `
+            }
+            });
+        })
+        .catch();
+      }
+      
+      document.querySelector("#btnCancelar").addEventListener("click", function() {
+        document.querySelector("#contactForm").reset();
+      });
+  
+    </script>
+    
+  </section>
+
+
+  <section id="duvidasfrequentes">
+    <div>
+      <h2 id="df">DÚVIDAS FREQUENTES</h2>
+    </div>
+  
+
+  <div id="conjunto">
+    <button class="accordion">Como se preparar para o mercado de trabalho?</button>
+    <div class="panel">
+      <p>Para se preparar para o mercado de trabalho, invista na sua educação e obtenha conhecimentos 
+      específicos na sua área por meio de cursos e certificações. Adquira experiência prática através de estágios, 
+      trabalhos voluntários ou projetos freelance. Construa uma rede de contatos profissionais participando de eventos e 
+      mantendo um perfil atualizado no LinkedIn. Desenvolva habilidades interpessoais, como comunicação e trabalho em equipe, e 
+      mantenha-se atualizado sobre as tendências do setor. Prepare-se bem para os processos seletivos com um currículo eficaz e 
+      prática para entrevistas.</p><br><br>
+    </div>
+    <br><br>
+
+    <button class="accordion">Qual profissão que dá mais dinheiro?</button>
+    <div class="panel">
+      <p>As profissões que geralmente oferecem os maiores salários podem variar dependendo do país, do setor e da demanda específica 
+      em cada momento. No entanto, algumas das profissões mais bem remuneradas, especialmente em países desenvolvidos, incluem: cirurgiões 
+      e médicos especialistas, dentistas e ortodontistas, advogados, engenheiros de software e executivos de tecnologia, entre outros.</p><br><br>
+    </div>
+    <br><br>
+
+    <button class="accordion">Qual carreira seguir?</button>
+    <div class="panel">
+      <p>Escolher a carreira certa depende de uma combinação de seus interesses pessoais, habilidades, valores e objetivos de vida. 
+      Para isso, deve-se avaliar alguns fatores, como: avaliação pessoal, exploração de carreiras, educação e formação, mercado de trabalho, 
+      entre outros. </p><br><br>
+    </div>
+    <br><br>
+
+    <button class="accordion">Como descobrir minha profissão?</button>
+    <div class="panel">
+      <p>Descobrir qual profissão seguir é um processo que envolve autoavaliação, exploração e planejamento. Fatores como 
+      interesses pessoais, habilidades, valores e testes vocacionais podem ajudar nesse processo.</p><br><br>
+    </div>
+    <br><br>
+
+    <button class="accordion">Como mudar de profissão?</button>
+    <div class="panel">
+      <p>Mudar de profissão pode ser um processo desafiador, mas também pode ser extremamente gratificante. Algumas  
+      etapas práticas para facilitar essa transição podem ser: autoavaliação, pesquisa, networking, experiência, entre outros.</p><br><br>
+    </div>
+    <br><br>
+    
+    <button class="accordion">Quais são os passos essenciais para planejar e desenvolver minha carreira profissional?</button>
+    <div class="panel">
+      <p>Identifique que caminhos você pode seguir, identifique o que o mercado busca, invista no seu desenvolvimento, 
+      desenvolva soft skills, cria um cronograma, e, se necessário, busque orientação profissional.</p><br><br>
+    </div>
+    <br><br>
+
+  </div>
+</section>
+  
+
+<section id="nossoapp">
+  <img id="imgcel" src="../IMAGENS/celular2.png"; alt="imagem">
+  <img id="imgcirc" src="../IMAGENS/circulocinza.png"; alt="imagem">
+  <img id="sombra" src="../IMAGENS/sombra.png"; alt="imagem">
+  <h2 id="conheca">CONHEÇA O NOSSO</h2>
+  <h2 id="app">APLICATIVO!</h2>
+    <div id="painelapp">
+      <p id="txtapp">Nosso aplicativo "Carreira em Foco!" tem
+        como objetivo garantir sua segurança ao efetuar o
+        cadastro em nossa plataforma. Dessa maneira, você
+        poderá, logo após concluir seu cadastro, visualizar
+        o seu perfil juntamente com seus dados!</p>
+        <a href='https://carreiraemfoco.serv00.net/site/HTML/app-debug.apk' class="button3">Download</a>
+    </div>
+    <p id="txtcopyright">  &copy; 2024 Carreira em Foco. All Rights Reserved.</p>
+</section>
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+      panel.style.display = "none";
+      } else {
+      panel.style.display = "block";
+      }
+    });
+    }
+      </script>
+  <script src="../JS/index.js"></script>
+  
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+      
+      
+      <!-- Modal TERMOS-->
+<div class="modal fade" id="modalTERMOS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">ㅤㅤㅤㅤㅤTermos e Condições de uso</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           <div class="modal-body" style="text-align: justify;">
+                      <p></p><p><strong>Última atualização:</strong> 01/11/2024</p>
+                      <p>Bem-vindo ao Carreira em Foco! Ao acessar e usar nosso site, você concorda em cumprir e estar vinculado aos seguintes Termos de Uso. Caso não concorde com estes termos, pedimos que não utilize nosso site.</p>
+                      <p><strong>1. Aceitação dos Termos</strong></p>  
+                          <p>Ao acessar e utilizar o Carreira em Foco, você aceita estes Termos de Uso, juntamente com nossa Política de Privacidade. Estes termos regem a sua utilização do nosso Site e dos serviços oferecidos.
+                      <p><strong>2. Alterações nos Termos</strong></p>   
+                        <p>Reservamo-nos o direito de atualizar ou modificar estes Termos de Uso a qualquer momento, sem aviso prévio. Recomenda-se que você revise esta página periodicamente para verificar se há mudanças. O uso contínuo do Site após a publicação de alterações constitui a sua aceitação dos novos Termos.</p>
+                      <p><strong>3. Uso do Site</strong></p>
+                      <p>Você concorda em utilizar o Site apenas para fins legais e de acordo com os presentes Termos de Uso. É proibido:
+                          </p>
+               <ul>
+                      
+                          <li>Utilizar o Site de qualquer maneira que possa danificar, desabilitar ou sobrecarregar nossos servidores;</li>
+                          <li>Tentar obter acesso não autorizado a qualquer parte do Site ou aos sistemas conectados ao Site;</li>
+                          <li>Usar o Site para distribuir conteúdo que seja ilegal, ofensivo, difamatório, ou que viole os direitos de terceiros.</li>
+                       
+                </ul>
+  
+                      <p></p><p><strong>4. Propriedade Intelectual</strong></p>
+                        <p>Todo o conteúdo, incluindo, mas não se limitando a texto, imagens, gráficos, logotipos, ícones, software e outros materiais disponíveis no site é de nossa propriedade ou de nossos licenciadores e está protegido por leis de direitos autorais e outras leis de propriedade intelectual. É proibido reproduzir, distribuir, modificar, exibir, publicar ou utilizar qualquer parte do conteúdo sem nosso consentimento prévio e por escrito.</p>
+  <p></p><p><strong>5. Links para Sites de Terceiros</strong></p>
+                        <p>Nosso site pode conter links para sites de terceiros. Esses links são fornecidos apenas para sua conveniência, e nós não temos controle sobre esses sites e não nos responsabilizamos pelo conteúdo ou pela privacidade desses sites. Você acessa esses links por sua conta e risco.</p>
+ 
+  <p></p><p><strong>6. Limitação de Responsabilidade</strong></p>
+                        <p>Em nenhuma circunstância seremos responsáveis por qualquer dano direto, indireto, incidental ou consequente resultante do uso ou da incapacidade de usar o site, mesmo que tenhamos sido avisados da possibilidade de tais danos. O uso do site é feito por sua conta e risco.</p>
+              
+                 <p></p><p><strong>7. Isenção de Garantias</strong></p>
+                        <p>O site é fornecido "como está" e "conforme disponível", sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que o site estará disponível de forma ininterrupta ou que estará livre de erros.</p>
+                 
+                  <p></p><p><strong>8. Privacidade</strong></p>
+                        <p>Seu uso do site também é regido pela nossa Política de Privacidade, que descreve como coletamos, usamos e protegemos suas informações pessoais. Por favor, consulte nossa Política de Privacidade para mais detalhes.</p>
+                        
+                  <p></p><p><strong>9. Contato</strong></p>
+                        <p>Se você tiver alguma dúvida sobre estes Termos de Uso, entre em contato conosco através do E-mail: carreiraemfoco.tcc@gmail.com.</p>
+                
+                <div class="tacbox">
+  <input id="checkbox" type="checkbox" style="cursor: pointer;" />
+  <label for="checkbox">Li e concordo com os <a href="#modalTERMOS">Termos de Uso</a>.</label>
+</div>
+                
+                
+                
+                 </div>
+        </div>
+                            <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- Modal TERMOS-->
+                            
+                            
+                            <!-- Modal PRIVACIDADE-->
+<div class="modal fade" id="modalPRIVACIDADE" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">ㅤㅤㅤㅤㅤㅤPolítica de Privacidade</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           <div class="modal-body" style="text-align: justify;">
+                      <p></p><p><strong>Última atualização:</strong> 01/11/2024</p>
+                      <p>A privacidade dos visitantes é de extrema importância para o Carreira em Foco. Esta Política de Privacidade descreve como coletamos, usamos e protegemos as informações pessoais dos usuários.
+Ao utilizar nosso site, você concorda com as práticas descritas nesta Política de Privacidade.
+</p>
+                      <p><strong>1. Informações que coletamos</strong></p>  
+                          <p>Podemos coletar diferentes tipos de informações sobre você quando você se cadastra em nosso site, incluindo:
+                      
+                            
+                             <ul>
+                      
+                          <li><strong>Informações de Identificação Pessoal:</strong> Nome, endereço de e-mail, senha, número de telefone, CPF e outras informações que você fornece voluntariamente ao nos contatar ou preencher formulários.</li>
+                          <li><strong>Informações de Navegação:</strong> Dados sobre sua visita, incluindo endereço IP, tipo de navegador, páginas visualizadas, tempo de visita e outras informações técnicas para aprimorar sua experiência de navegação.</li>
+                          
+                       
+                </ul>
+                           
+                            <p><strong>2. Uso das Informações</strong></p>   
+                        <p>As informações que coletamos são utilizadas para:</p>
+                           <ul>
+                      
+                          <li>Personalizar e melhorar sua experiência no nosso site;</li>
+                          <li>Responder a consultas ou solicitações de suporte;</li>
+                           <li>Enviar comunicações, como atualizações ou newsletters (com sua permissão);</li>
+                           <li>Realizar análises para entender e melhorar o desempenho do site.</li>
+                          
+                       
+                </ul>
+                            
+                            <p><strong>3. Compartilhamento de Informações</strong></p>
+                      <p>Não compartilhamos, vendemos ou alugamos suas informações pessoais a terceiros, exceto nos seguintes casos:
+                          </p>
+               <ul>
+                      
+                          <li><strong>Prestadores de Serviço:</strong> Podemos compartilhar suas informações com prestadores de serviços terceirizados para nos ajudar a operar o site, desde que esses terceiros mantenham a confidencialidade das informações.</li>
+                          <li><strong>Obrigação Legal:</strong> Podemos divulgar informações se necessário para cumprir a lei ou atender a uma ordem judicial, proteger nossos direitos ou proteger a segurança dos usuários.</li>
+                          
+                       
+                </ul>
+  
+                      <p></p><p><strong>4. Cookies e Tecnologias Semelhantes</strong></p>
+                        <p>Utilizamos cookies para melhorar a experiência do usuário e coletar informações sobre o uso do site. Cookies são pequenos arquivos de texto armazenados no seu dispositivo. Você pode configurar seu navegador para recusar cookies, mas isso pode limitar algumas funcionalidades do site.</p>
+ <p><strong>Tipos de Cookies que Utilizamos:</strong></p>
+                            
+                            <li><strong>Cookies Essenciais:</strong> Necessários para o funcionamento básico do site.</li>
+                          <li><strong>Cookies de Desempenho:</strong> Coletam informações sobre como você usa o site, ajudando a melhorar seu funcionamento.</li>
+                            <li><strong>Cookies de Funcionalidade:</strong> Permitem que o site se lembre de suas escolhas para oferecer uma experiência personalizada.</li>
+                            
+                            
+                            <p></p><p><strong>5. Segurança das Informações</strong></p>
+                        <p>Tomamos medidas técnicas e organizacionais para proteger suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição. No entanto, nenhum método de transmissão ou armazenamento eletrônico é completamente seguro, e não podemos garantir a segurança absoluta dos seus dados.</p>
+ 
+  <p></p><p><strong>6. Retenção de Dados</strong></p>
+                        <p>As informações pessoais serão mantidas apenas pelo tempo necessário para cumprir as finalidades descritas nesta Política de Privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei.</p>
+              
+                 <p></p><p><strong>7. Seus Direitos</strong></p>
+                        <p>Dependendo da jurisdição aplicável, você pode ter direitos específicos sobre suas informações pessoais, incluindo o direito de:</p>
+                     <ul>
+                      
+                          <li>Acessar suas informações pessoais e solicitar uma cópia;</li>
+                          <li>Corrigir qualquer informação pessoal incompleta ou incorreta;</li>
+                           <li>Solicitar a exclusão das suas informações pessoais;</li>
+                           <li>Limitar o processamento dos seus dados em determinadas circunstâncias;</li>
+                        <li>Retirar o consentimento para o processamento de dados pessoais (quando aplicável).</li> 
+                </ul>
+                            
+                            <p>Para exercer seus direitos, entre em contato conosco conforme detalhado na seção "Suporte".</p>
+                  <p></p><p><strong>8. Sites de Terceiros</strong></p>
+                        <p>Nosso site pode conter links para sites de terceiros que não são operados por nós. Não nos responsabilizamos pelo conteúdo e pelas práticas de privacidade desses sites. Recomendamos que você leia a política de privacidade de qualquer site de terceiros que visite.</p>
+                        
+                  <p></p><p><strong>9. Alterações a Esta Política de Privacidade</strong></p>
+                        <p>Podemos atualizar esta Política de Privacidade periodicamente. Qualquer alteração será publicada nesta página com a nova data de vigência. Recomendamos que você revise esta página regularmente para se manter informado sobre nossa abordagem de privacidade.</p>
+                <p></p><p><strong>10. Contato</strong></p>
+                            <p>Se você tiver dúvidas sobre esta Política de Privacidade ou sobre o tratamento das suas informações, entre em contato conosco pelo e-mail: carreiraemfoco.tcc@gmail.com</p>
+                <div class="tacbox">
+  <input id="checkbox" type="checkbox" style="cursor: pointer;"/>
+  <label for="checkbox">Li e concordo com a <a href="#modalPRIVACIDADE">Política de Privacidade</a>.</label>
+</div>
+                
+                
+                
+                 </div>
+        </div>
+                            <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- Modal PRIVACIDADE-->
+
+      <footer class="my-4 pt-4 text-muted text-center text-small">
+  <p class="mb-1">&copy; 2024 Carreira em Foco</p>
+    <ul class="list-inline">
+    <li class="list-inline-item" data-bs-toggle="modal" data-bs-target="#modalPRIVACIDADE"><a href="#modalPRIVACIDADE">Privacidade</a></li>
+    <li class="list-inline-item" data-bs-toggle="modal" data-bs-target="#modalTERMOS"><a href="#modalTERMOS">Termos</a></li>
+    <li class="list-inline-item"><a href="#faleconosco">Suporte</a></li>
+    </ul>
+  </footer>
+                            
+                           
+
+     
+</body>
+</html>

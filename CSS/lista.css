@@ -1,0 +1,51 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+
+#fd{
+    background-color: #FFFCF7;
+}
+
+.container{
+    background-color: #FFFCF7;
+    width: 46.8%;
+  height: 25%;
+    border-radius: 5px;
+    position: absolute;
+    top: 40%;
+  left:25%;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.253);
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.253);
+    border: none;
+    
+}
+
+.jumbotron{
+    background: linear-gradient(to right, #4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75);
+    width: 102.5%;
+    position: relative;
+    right: 1.2%;
+    margin-top: -1%;
+    height: 40%;
+    border-radius: 30px */
+}
+
+#txtmeup{
+    font-family: 'Bebas Neue', sans-serif;
+    position: absolute;
+    font-size: 550%;
+    font-weight: bold;
+    left: 45%;
+    top: 30%;
+    
+}
+
+.imagem{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 40%;    
+    left: 26%;                         
+}
+
