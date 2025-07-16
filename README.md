@@ -1,0 +1,3 @@
+# 📓Apresentação do projeto:
+
+O Carreira em Foco consiste em um site que oferece um guia de carreira desenvolvido por mim e meu grupo com o objetivo de ajudar as pessoas a escolherem suas profissões. Dessa forma, selecionamos diversas informações a respeito dos cursos da atualidade e as organizamos em nosso site da melhor forma possível para a melhor experiência do usuário. Nossa problemática foi a falta de informação a respeito dos cursos universitários que estudantes ou pessoas em transição de carreira sentem ao procurar uma profissão. Dessa forma, documentamos todo o processo de desenvolvimento do site e do aplicativo ao longo do ano.
